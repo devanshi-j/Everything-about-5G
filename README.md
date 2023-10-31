@@ -347,8 +347,28 @@ ADVANTAGES:
           multiple base stations to increase coverage, so network capacity 
           will increase through cell densification.
     
-  
+  * mmWAVE deployment opportunities:
+    1. Outdoor deployment opportunities: Done with the help of base signals
+    2. Indoor deployment opprtunities: Small cell deployments, so singular 
+       connectivity is possible
+    3. Dence urban deployment: In this case the concept of cell 
+       densification takes place.
+    4. Last Mile Solution: this principle states that instead of using 
+       hardware wires we use the above stated concept to provide network 
+       to a defined area.
 
+    Qs) How to provide broad band connectivity in rural areas?
+     Ans. Since rural areas are small marco cells are not needed one base 
+     station will be enough to provide coverage to an entire chunk of land.
+     When the tower needs to connect with main channel, it will treat it 
+     as a normal user and communicate with the help of mmWAVE, also known 
+     as backhaul.
+
+   * mmWAVE to fixed wireless access
+     The main concept is that FWA device will be present in each house it 
+     will recieve signals from the base station and will provide internet 
+     to the entire house. It will act just like a modem. It is a portable 
+     device.
 
 
 
