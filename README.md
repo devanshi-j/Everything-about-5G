@@ -62,10 +62,35 @@ VICA VERSA HAPPENS WHILE RECIEVEING A MESSAGE.
 
 *While transfering of information it faces some challanges:
 • Attenuates / Path loss transmission loss.
-• Noice & interference
+• Noise & interference
 
 * In real time
   device 1 ➡️ ANTENA ➡️ device 2...
+
+Noise & Interference (unwanted signals or energies..)
+
+INTERGERENCE: delibrate form of disturbing energies. When 2 towers use the same redio frequency this happens.
+
+NOISE: 
+unwanted signal not delebrate. Already present in the device (Thermal noise).
+It cannot be minimized after a certain level.
+
+*Ambient noise (can be eliminated)
+
+*To find a quatitative value
+
+1.SNR Signal: Signal/Noise
+(signal to noise ratio)
+
+2. SINR: signal/ Noise + interference  (Signal tointerference & noise ratio).
+
+# Radio Spectrum
+is range of radio frequencies for which wireless connection takes place for a specific reason.
+
+RANGE: 450 MHZ - 39 GHz
+                   ⬇️
+                 mmWave
+
 
 
 
