@@ -44,7 +44,30 @@ also known as carrier waves.
 *demodulation is recovering the data from the reciever.
 
 MODEM 
-(MO = modulation, DEM = demodulation)
+(MO = modulation, DEM = demodulation).
+
+* what happens during, phone conversation; wireless transmission & reception
+
+*While sending a message
+sound
+ ⬇️
+Modulation, imposed to carrier ware
+ ⬇️
+power amplification 
+(more power = better coverage area)
+ ⬇️
+ Antena
+
+VICA VERSA HAPPENS WHILE RECIEVEING A MESSAGE.
+
+*While transfering of information it faces some challanges:
+• Attenuates / Path loss transmission loss.
+• Noice & interference
+
+* In real time
+  device 1 ➡️ ANTENA ➡️ device 2...
+
+
 
 
 
