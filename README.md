@@ -211,6 +211,24 @@ Massive I0T (Internet of things) can scale upto million devices. Also, does offe
 necessary for mission critical services.
 Empasis on E2E latency.
 
+** 5G networks & its features:
+
+ technologies        Base Stations
+  3G                NodeB
+  4G                eNodeB
+  5G                gNodeB
+
+* Components of next generation core of 5G
+
+
+1. AMF : Access & Mobility management Manges User equipment access & mobility. function
+
+2. SHF : session management function to supports signaling of IP address allocation & connetivity.
+
+3. User plane function: Handles content generated /consumed by apps etc.
+
+
+
 
 
 
