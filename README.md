@@ -188,6 +188,30 @@ Also :
 5. performanc will be increased by upto 10x.
 
 
+* Services offered by 5G
+
+1. EMBB (enhanced mobile broadband)
+
+• improves spectral efficiency Bandwidth & power usage is secondary.
+
+• which appd need it?
+
+1 Peak user data > 10Gbps
+2 Network throughout > 1Tbps
+
+Macro cells significatly covers an area of few sq. 
+→ Microcells & covers a Small ares
+
+2. mMIC (massive machine type communications)
+
+It an enables all eletric devices, to communicate with the network.
+Massive I0T (Internet of things) can scale upto million devices. Also, does offer large coverage conditions
+
+3.  URLLC ( ultre reliable Low latency communications)
+necessary for mission critical services.
+Empasis on E2E latency.
+
+
 
 
 
