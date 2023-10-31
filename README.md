@@ -280,6 +280,24 @@ Device1          Device 2
 Both the waves are transmiting to a single device, so the reciever is able to recieve multiple data at the same time. This the is the basic concept. So It improves the data scale.
 
 
+*One more advantage. MIMO
+
+both Antena's work on the same frequency channel & spectrum. The signals don't interfere with each other bcz MIMO incodes in the transmiters differently. in
+
+To understand simply
+If person 1&2 speak in diff languge they will not interfere with the people speaking in different language, even though all 4 of them are sitting in the same room.
+
+5. mmWave (millimeter wave)
+wavelength in in mm
+
+* Till now technologies have not been.l able to use the mmwaves efficiently. So, when 5G comes into frame, it will have 1 more advantage that this will solve the availiblity issue because mmWave has abundent spectarum.
+
+Bandwidth range
+400MHz-500MHz
+
+
+
+
 
 
 
