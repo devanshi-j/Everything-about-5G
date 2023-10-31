@@ -211,6 +211,7 @@ Massive I0T (Internet of things) can scale upto million devices. Also, does offe
 necessary for mission critical services.
 Empasis on E2E latency.
 
+# Module 3
 ** 5G networks & its features:
 
  technologies        Base Stations
@@ -272,17 +273,11 @@ suppose you need to use a wideband channel, but  you don't have the resources. T
 
  4. Massive MIMO
 
-Devic
+Device1          Device 2
+ T1   _________   R1 }    different
+ T2   _________   R2 }     antenas
 
-Device 2
-
-Multiple Antenas
-
-T-O
-
--₂
-
-both the waves are transmiting to a single device, so the reciever is able to recieve multiple data at the same time. This the is the basic concept. So It improves the data scale.
+Both the waves are transmiting to a single device, so the reciever is able to recieve multiple data at the same time. This the is the basic concept. So It improves the data scale.
 
 
 
