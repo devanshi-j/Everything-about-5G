@@ -159,6 +159,37 @@ Advantages of using digital voica:
 
 4G - when it came, the speed of data increased. But, it also expanded the eco system of gagets like Tabs, VR's ete, came into existance.
 
+* 4G Use Cases.
+
+every series, music etc (multimedia). is available to them everywhere.
+
+Qs) But why do we need Something beyond 4G
+Reason: Mainly to reduce latency & increased relibility
+
+Also :
+1. So that good network quality achieved when moving, or in conjusted environments.
+
+2. So, to create a base of VR, 9r augmented reality.
+
+3. Connect everyone & everything
+
+*what changes will 5G bring?
+                  ⬇️
+             NR (New Radio)
+
+1. significantly high data rates
+
+2. Lower latency (reduction of delay)
+
+3. Uniform experience
+
+4. low cost per bit.
+
+5. performanc will be increased by upto 10x.
+
+
+
+
 
 
 
