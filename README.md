@@ -311,6 +311,13 @@ ADVANTAGES:
  
  NFV: The service provider can rent cloud  servers, So, no need will be there to     buy extra hardware. This will increase    sclability.
 
+ 3. MEC (Mobile edge computing)
+ shifts resources from far to close to people,  using the services. So, that reduces latency and increases realibility.
+
+# what 4G does not offer?
+●It cannot support SDN & NFV, because it cannot use service based architecture, without any hardware.
+● Massive MIMO MMWAVE not supported so cannot be used.
+
 
 
 
