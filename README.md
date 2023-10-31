@@ -92,6 +92,23 @@ RANGE: 450 MHZ - 39 GHz
                  mmWave
 
 
+*There are companies that assign transmission to different radio spectrums
+
+# Radio channel and bandwidth
+
+• when Phone transfers information, it just uses part of radio signal. It limited range of frequency known as its radio/frequency channel & its width is called bandwidth.
+
+Radio Channel
+1. narrowband: small amount of redio spectrum
+
+2. Wideband: large amount of radio spectrum
+
+Qs) why can't every every channel be wideband 
+Ans. because of lack of avalibility, cause if radio spectrum is more then expence is also more.
+
+
+
+
 
 
 
