@@ -227,6 +227,43 @@ Empasis on E2E latency.
 
 3. User plane function: Handles content generated /consumed by apps etc.
 
+*througput: When Certain amount of data is moved from one place to other in certain amount of time.
+
+How 5G network works. (Network architecture)
+
+Two types of  architecture
+1.Stand alone (SA). Only a particular type of momos 
+
+5G Core Network
+ ⬇️
+5G RAN
+ ⬇️
+User equipment (UE)
+
+2. Non-standalone (NSA)
+   ⬇️            ⬇️
+4G radio       5G Radio
+Networ         Network
+   ⬇️            ⬇️
+ 4G LTE     5G link carriers
+      ⬇️     ⬇️
+   Dual Connectivity
+
+In this case the service provideer will slectively deploy limited of 5G stations according to the requirement.
+
+Seti Tichiniques that support G.
+
+Chixible stat bosed framework slot
+
+making time lines flexible
+
+In simple worde
+
+If be completes the task faster than expected, then 36 allocates the left out resources to some other UE, so it does not get wasted
+
+DELTA Notebook
+
+
 
 
 
