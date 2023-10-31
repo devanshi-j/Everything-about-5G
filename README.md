@@ -295,6 +295,24 @@ wavelength in in mm
 Bandwidth range
 400MHz-500MHz
 
+*Other networking principles
+1. Network Slicing:
+   Subset of network component, to           provide E2E every. every slice            contains every element of core            component, the number depends on the      usage amount.
+
+● flexible subscriptions can be made when comes to commercial usage. 
+
+2. software defined networking (SDN) & 
+   Network function virtualization (NFV)
+
+ SDN: Hardware is abstracted from the network services & Applications. 
+ADVANTAGES:
+ 1. Rapid Innovation
+ 2. Centralized Management
+ 
+ NFV: The service provider can rent cloud  servers, So, no need will be there to     buy extra hardware. This will increase    sclability.
+
+
+
 
 
 
