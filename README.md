@@ -122,6 +122,29 @@ how good connectivity is shown by the bars.
 
 3. How frequently abd efficiently the phone can utilize the channel, also known a spectral efficiency.
 
+TOWERS = BASE STATION
+
+* The cellular concept (main aim is to decrease dropped cells abd increase data rates and coverage area.)
+
+According to the cellular concept mobile network coverage areas are divided into cells. According to geographical areas
+
+• Hand off it states that you cellular tower changes, when your location changes.
+
+If you are in a at low coverage area, it will affect your connection (known as dropped cells)
+
+* what is cellular network
+
+Services (email, Internet etc)
+ ⬇️
+Core network
+It contains the data and also serves as the routing bridge between RAN & services.
+ ⬇️
+Towers everywhere 
+RAN - Radio Access Network
+ ⬇️
+data reaches to phones...
+
+
 
 
 
