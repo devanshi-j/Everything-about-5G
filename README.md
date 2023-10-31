@@ -144,6 +144,21 @@ RAN - Radio Access Network
  ⬇️
 data reaches to phones...
 
+# MODULE 2
+How cellular communication are evolved over the years 1980's
+
+1G- idea: people can recieve & make calls keeping aside there location. Done through analog modulation (anolog voice).
+
+2G - 1990's - Idea: Same as 1G & also texts Started. Uses digital voice (digital modulation)
+
+Advantages of using digital voica:
+1.Compress
+2.Reproduce & tramit digital sound
+
+2000's - 3G idea - seamles access to internet
+
+4G - when it came, the speed of data increased. But, it also expanded the eco system of gagets like Tabs, VR's ete, came into existance.
+
 
 
 
