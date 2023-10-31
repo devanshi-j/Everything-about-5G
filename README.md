@@ -106,6 +106,24 @@ Radio Channel
 Qs) why can't every every channel be wideband 
 Ans. because of lack of avalibility, cause if radio spectrum is more then expence is also more.
 
+*CDMA (Code division Multiple access)
+2 ways of sharing
+•TDD (Time division duplexing)
+    A single radio channel is used, but       at different time. As speed of data       decreses, expences increase.
+•FDD (Fequency division duplexing)
+    two different channels are use to         communicate one is assigned tower         other your phone. But, It is              expensive and needs abundent radio 
+    spectrum
+
+* Factors affecting data rate
+1.SNR
+how good connectivity is shown by the bars.
+
+2. How wide & crowded the channel is
+
+3. How frequently abd efficiently the phone can utilize the channel, also known a spectral efficiency.
+
+
+
 
 
 
