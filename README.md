@@ -318,6 +318,41 @@ ADVANTAGES:
 ●It cannot support SDN & NFV, because it cannot use service based architecture, without any hardware.
 ● Massive MIMO MMWAVE not supported so cannot be used.
 
+# Module 4
+3 types of bandwidts under which 5G can function:
+1. Low bands < 1 (EG: 600MHz, 700MHz it is limited)
+2. Mid bands 1GHz- 6GHz (also known as subsix EG: 3.4GHz-4.4GHz etc.)
+3. High Bands (utilizes mmWAVE, EG: 24GHz-39GHz)
+
+3 ways of using 5G spectrum:
+1. Licensed Spectrum: When a certain person or entity have exclusive rights to operate a band and nobody else can use it. It is very expensive.
+2. Unlicensed Spectrum: No need to purchase any spectrum, can be used by anyone. So, higher density will increase interference and slow data speed.
+3. Shared Spectrum: First someone has to purchase a spectrum, but can coordinate with different entities to use it by making certain arrangements.
+
+* In mmWAVE the wavelength is in millimeters and also operates in a specific frequency range.
+
+  Qs) What challanges does deployment of mmWAVE offer?
+  Ans. 1. It has high frequency so, path loss will be more.
+       2. Building penetration loss.
+
+  Qs) What are the advantages of mmWAVE?
+  Ans. 1. It has excess to high band width.
+       2. Since, the size of antena is inversely propotional to the amount 
+          of frequency, more frequency = small antenas. So, we can fit 
+          many more mmWAVE antena than usual so more antenas = higher gain.
+       3. The antena pannel can coordinate and can focus there energy in 
+          the desired direction, so it will increase spectral efficiency.
+       4. *** higher path loss can be used as an advantage: 
+          Since higher frequency = low coverage area, we can deploy 
+          multiple base stations to increase coverage, so network capacity 
+          will increase through cell densification.
+    
+  
+
+
+
+
+
 
 
 
