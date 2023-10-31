@@ -251,17 +251,40 @@ Networ         Network
 
 In this case the service provideer will slectively deploy limited of 5G stations according to the requirement.
 
-Seti Tichiniques that support G.
+* Techniques that support 5G
 
-Chixible stat bosed framework slot
+1. flexible slot bosed framework
+   In simple worde If UE completes the       task faster than expected, then 5G        allocates the left out resources to       some other UE, so it does not get         wasted.
 
-making time lines flexible
+2. Scalable OFDM air interface
+(outragonal frequency division multiplexing)
 
-In simple worde
+suppose you need to use a wideband channel, but  you don't have the resources. Then OFDM comes into use, it combines many narrowband channel together, so that the the lack of resources do not affect the process.
+  ___________
+  ___________ wideband channel
 
-If be completes the task faster than expected, then 36 allocates the left out resources to some other UE, so it does not get wasted
+  ----------- OFDM combination of                       narrowband channel.
 
-DELTA Notebook
+ 3. Advanced Channel coding
+    (error correction coding)
+
+ It helps to prevent errors like path loss & if the to errors still happen it tries to detoriate its affct, so, that info reaches the the reciever correctly.
+
+ 4. Massive MIMO
+
+Devic
+
+Device 2
+
+Multiple Antenas
+
+T-O
+
+-₂
+
+both the waves are transmiting to a single device, so the reciever is able to recieve multiple data at the same time. This the is the basic concept. So It improves the data scale.
+
+
 
 
 
