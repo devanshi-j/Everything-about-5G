@@ -16,8 +16,7 @@ Basic concept states communication between transmiter and reciever without any p
 1. Communication takes place by wireless channel, with the help of signals.
 (Antena plays a major role to achive the above stated above.
 
-* mostly every device can act transmitter & reciever both
-
+* mostly every device can act transmitter & reciever both.
 
 *Wireless signals (Radio frequency signals) 
 
@@ -34,6 +33,20 @@ Basic concept states communication between transmiter and reciever without any p
    RANGE: 100Km-1Mm
 
 *frequency increases and wavelength decreaces. And Vica Versa.
+
+NOTE: If 2 Radio Signals have same frequency they they will have same wavelength.
+
+*Radio signals (electro magnetic signals)
+also known as carrier waves.
+
+* Modulation is to impose info, an the carrier waves. It can change certain atteributes like wavelength of the CW, this is how it imposes information onto the carrier. It can be analog  or digital
+
+*demodulation is recovering the data from the reciever.
+
+MODEM 
+(MO = modulation, DEM = demodulation)
+
+
 
 
 
