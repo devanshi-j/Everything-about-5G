@@ -398,10 +398,38 @@ ADVANTAGES:
      BEAM SWEEPING: It means when a gNodeB is not able to generate 
      multiple beams, it creates a single beam and flashes it in differnt 
      areas at different times. Reapets it on loop.
+
 # Module 6
+*5G RAN
+BBU(base band unit): The data tha you see on your screens before being converted into freaquency is known as base band.
+
+RRH(remote radio head) or RU(radio Unit): After the base band signal is converted into frequency it is known as Ru/RRH.
+
+*EVOLUTION OF RAN
+1. D-RAN (distributed RAN): it means that you need to have a BBU seprately at each base station with RRH for transfer and recieving of data.
+
+2. C-RAN (Centralised RAN): It meqns that you can have a BBU pool(collection of BBU at the same place) so indivisual BBU for RU will not be needed.
+
+*Fronthaul: the wire that carries data from BBU to RRH/RU. 
 
 
+3. vRAN (virtualised RAN): It functions the same as cRAN but the BBU pool are made on cloud based servers instead of actual hardware. It will create a system that will offer diverse 5G services.
+  ADVANTAGES:
+  1. Since service providers will not have to purchase hardware there 
+     CAPEX & OPEX costs will reduce.
+  2. You can buy BBu and RU from different vendors.
+  3. It will help in cell densification.
 
+* RAN functional split:
+   The BBU can be divided into components:
+  1. CU: used for making strategic and long term decisions. So, loacted  
+     at a single location. One is present with many number of DU's
+  2. DU: This can be located at many locations. Present with mostly 
+     every RU.
+
+ 
+  
+  
 
 
 
