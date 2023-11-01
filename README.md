@@ -372,8 +372,9 @@ ADVANTAGES:
 
   
 # Module 5
-*In depth of Massive MIMO
-Pre-requisites
+*In depth of Massive MIMO (After looking at real life examples we can state that it increases throughput upto 4x)
+
+*Pre-requisites
 1. Antena array: pannel of multiple antenas.
    Number of antenas for sub 6: up to 64
    Number of antenas for mmWAVE: up to 512 (if massive MIMO can achive 
