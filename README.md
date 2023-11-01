@@ -432,23 +432,52 @@ Ans. 1. Cost friendly
      2. Bcz it only has one RU it will help to increase speen and will 
       be more efficient.
 
- 
+ # Module 7
   
-  
+  * What are private networks: These networks are designed for a 
+    particular enterprise, so that they can perform their operations.
+    It requires very few base stations, depending upon the area. But, they 
+    can also use public networks.
+
+    ADVANTAGES OF CELLULAR PRIVATE NETWORKS:
+       1. Design can be based according to customers need.
+       2. High degree of reliability and availiblity.
+       3. Flexibility of dervices can be controlled.
+
+   *What is Industrial IOT?
+    This concept states that all the machines communicate with the same 
+    operational server. The server looks into details off all the data 
+    recieved, then prepares a concrete summary and sends it two the 
+    devices, in order to achieve better performance.
+
+    *Private network for IOT....
+     For Example: In a industry their are certian gagets and machines that 
+     functions. If the industry has a private network, all the devices 
+     will communicate with it. But, suppose if a battery truck that 
+     operates there, if it travels than it uses macro level public net or 
+     when it is within the premises of factory it uses private net.
+
+    * what factors should be kept in mind while private networks deployment
+      1. How much spectrum is needed
+      2. Which architecture to use (SA or NSA)
+      3. Where should be core network kept (On premise or cloud)
+      4. Which RAN to be chosen.
+
+   * Spectrum options for private net & IOT..
+     1. Dedicated spectrums: Auctions ar kept so that only industria 
+        owners can purchase the spectrum kept aside for IOT.
+     2. Licenced spectrum
+     3. Unlicenced spectrum
+     4. In future syncronised spectrums will come in power, where the 
+        network will function according to th availibility of licenced or 
+        unlicenced spectrum.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+    * What is the difference between WIFI and private network:
+    WIFI: It works in the unlicenced spectrum, So when two routers come 
+    together it is possible that both of them will interfere with each 
+    others signals. Also, it does not offer as much scalibility as private 
+    networks.
 
 
 
