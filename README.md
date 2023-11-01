@@ -1,8 +1,6 @@
 # Everything-about-5G
 
-#Module 1
-will cause wireless evolution
-
+# Module 1
 Steps to get started
 1.once network designed
 2. It gets deployed by service provider
@@ -272,7 +270,6 @@ suppose you need to use a wideband channel, but  you don't have the resources. T
  It helps to prevent errors like path loss & if the to errors still happen it tries to detoriate its affct, so, that info reaches the the reciever correctly.
 
  4. Massive MIMO
-
 Device1          Device 2
  T1   _________   R1 }    different
  T2   _________   R2 }     antenas
@@ -374,7 +371,33 @@ ADVANTAGES:
      device.
 
   
+# Module 5
+*In depth of Massive MIMO
+Pre-requisites
+1. Antena array: pannel of multiple antenas.
+   Number of antenas for sub 6: up to 64
+   Number of antenas for mmWAVE: up to 512 (if massive MIMO can achive 
+   coverage upto this range then it can be easily converted into mmWAVE).
 
+* What is beamforming?
+  When all the antenas that are a part of antena array work together in 
+  unity then it is known as beamforming. It prevents the wastage of energy 
+  caused when all the antenas focus in different directions. It improves 
+  signals and thus improves the throughput.
+
+  Benefits of beamforming:
+  1. Muliple beams can be formed, depending on implementation. This will 
+     implement MU-MIMO (multi-user MIMO). Both beams uses same frequency 
+     channel but they need to encoded differently.
+  2. If we deploy beams in both horizontal and vertical direction,it will 
+     create 3D beam forming.
+  3. It offers more coverage area, beause it allows narrow beams to travel 
+     further.
+
+     BEAM SWEEPING: It means when a gNodeB is not able to generate 
+     multiple beams, it creates a single beam and flashes it in differnt 
+     areas at different times. Reapets it on loop.
+# Module 6
 
 
 
