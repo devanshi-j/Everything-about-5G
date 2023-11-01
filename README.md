@@ -479,12 +479,43 @@ Ans. 1. Cost friendly
     others signals. Also, it does not offer as much scalibility as private 
     networks.
 
+# Module 8
 
+*Security in 5G
+   AIR INTERFACES:
+   3GPP Access: When a user tries to access 5G core network over 5G RAN.
+   non-3GPP Access: When a user tries to access 5G core network over WIFI, 
+   instead of 5G RAN.
 
+  1. Enhanced system design framework: 
+     It does not matter which air interface you are using, the core 
+     network performs a basic authentication before letting any network in.
 
+     SEAF (Security anchor function): It takes some of the security check 
+     load off from the core network and brings it one layer closer to the 
+     user, just like in edge computing.
 
+  2.Expanded protection and increased flexibility:
+      I. Integrated security credential: If the sim card is not present 
+         then also the system's hardware is coded with some security 
+         parameters.
+      II. Deeper Key hierarchy: It means that the user is always secured 
+          from the home network side, whether it is using home network or 
+          roming network.
+      III. Improved data protection: It will inform the user and device if 
+           their data is being tampered with in the control plane or the 
+           user plane.
 
+  *IMSI: INTERNATIONAL MOBILE SUBSCRIBER IDENTITY
 
-
-
-
+    *If you are using a sim card you are provided with a subscriber 
+    identity. And in order to ensure that the ID is not leaked, certain 
+    measures are taken in 5G networks...
+       1. Encryption concept is being set up between the user and network 
+       before transfering of any important information.
+       2. In 5G it can assign temporary ID's from time to time, so leaking 
+       of information becomes tough.
+       3. When we send a important piece of information, the UE does not 
+       send it completely at once, it sends the information in phases, 
+       which ensures a multi level authentication, between UE and core 
+       network.
