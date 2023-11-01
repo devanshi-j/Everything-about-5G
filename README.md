@@ -427,6 +427,11 @@ RRH(remote radio head) or RU(radio Unit): After the base band signal is converte
   2. DU: This can be located at many locations. Present with mostly 
      every RU.
 
+Qs) what are the advantages of using vRAN
+Ans. 1. Cost friendly
+     2. Bcz it only has one RU it will help to increase speen and will 
+      be more efficient.
+
  
   
   
