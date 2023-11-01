@@ -320,7 +320,7 @@ ADVANTAGES:
 
 # Module 4
 3 types of bandwidts under which 5G can function:
-1. Low bands < 1 (EG: 600MHz, 700MHz it is limited)
+1. Low bands < 1GHz (EG: 600MHz, 700MHz it is limited)
 2. Mid bands 1GHz- 6GHz (also known as subsix EG: 3.4GHz-4.4GHz etc.)
 3. High Bands (utilizes mmWAVE, EG: 24GHz-39GHz)
 
@@ -348,16 +348,19 @@ ADVANTAGES:
           will increase through cell densification.
     
   * mmWAVE deployment opportunities:
-    1. Outdoor deployment opportunities: Done with the help of base signals
+    1. Outdoor deployment opportunities: Done with the help of base signa
+      Examples: 1. Dence urban deployment: In this case the concept of 
+                    cell densification takes place.
+                2. Last Mile Solution: this principle states that instead 
+                of using hardware wires we use the above stated concept to 
+                provide network to a defined area.
     2. Indoor deployment opprtunities: Small cell deployments, so singular 
-       connectivity is possible
-    3. Dence urban deployment: In this case the concept of cell 
-       densification takes place.
-    4. Last Mile Solution: this principle states that instead of using 
-       hardware wires we use the above stated concept to provide network 
-       to a defined area.
-
-    Qs) How to provide broad band connectivity in rural areas?
+       connectivity is possible. It is necessary in closed venues, 
+       enterprises, underground transport hubs. Since, mmWAVE offers 
+       unlimited spectrum it can fulfil all the requirements needed by the 
+       above use cases.
+       
+     Qs) How to provide broad band connectivity in rural areas?
      Ans. Since rural areas are small marco cells are not needed one base 
      station will be enough to provide coverage to an entire chunk of land.
      When the tower needs to connect with main channel, it will treat it 
@@ -370,6 +373,7 @@ ADVANTAGES:
      to the entire house. It will act just like a modem. It is a portable 
      device.
 
+  
 
 
 
