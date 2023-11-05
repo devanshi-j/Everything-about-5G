@@ -519,3 +519,26 @@ Ans. 1. Cost friendly
        send it completely at once, it sends the information in phases, 
        which ensures a multi level authentication, between UE and core 
        network.
+
+
+# Deployment of 5G
+Option 1: EPC to deploy 4G network with eNodeB
+Option 2: If a provider does not have legacy 4G netwok then it can only provide with 5G network with gNodeB.
+
+*EN-DC*
+Option 3: Dual connectivity, one is known as master RAN  and other is known as secondary RAN.
+      I. If people want to get 5G coverage then in this case they use 5G network (secondary RAN) over 4G core.
+Option 3a: Data can be send to only eNodeB or gNodeB.
+Option 3x: A mixute of Option 3 and 3a.
+
+*NE-DC*
+Option 4: 4G access is used as the secondary technology
+Option 4a: First data is send to gNodeB then partly sent to eNodeB and device.
+
+Option 5: eLTE
+In this case mostly everthing consists of 5G, but the 4G stations are upgraded in order to access 5G.
+
+Option 6: Is the vica versa of option 5, but 5G does not support it.
+
+NG-EN DC
+Option 7: This means an enhanced eNodeB can also use 5G thechnology as gNodeB.
