@@ -429,9 +429,75 @@ RRH(remote radio head) or RU(radio Unit): After the base band signal is converte
 
 Qs) what are the advantages of using vRAN
 Ans. 1. Cost friendly
-     2. Bcz it only has one RU it will help to increase speen and will 
-      be more efficient.
+     2. Bcz it only has one RU it will help to increase 
+       speed and will be more efficient.
 
+* The RAN Protocol Stack
+  1.  Use plane control stack
+      Supports carrying user data between different 
+      applications of UE and gNodeB.
+      LAYERS:
+      1.PHY (Physical Layer): efficient wireless 
+      communication.
+      2.MAC: Checks the transmitted messages for 
+      errors, does scheduling required to multiplex and 
+      demultiplex different channels.
+      3.RLC: Segements IT packets and then rearranges 
+      them on the recieveing side.
+      4.PDCP: Takes care of ciphering and integrity 
+      protection of the wireless data transfer. Also, 
+      offers duplicacy removal.
+      5.SDAP: It maps quality bearer in the right radio 
+      bearer according to frequency requirements.
+
+*Difference between SDU and PDU??
+ 
+  3.  Control plane protocol stack
+      Supports carrying user data between different 
+      applications of UE, gNodeB or core network.
+      LAYERS ACCEPT THE ONES MENTIONED IN CONTROL PLANE:
+      1.NAS: Assigns IP address to a device
+      2.RRC (Radio resource control): Performs most of 
+       the functions of SADP. Also, configures system 
+       information.
+
+# Everthing about SDAP (SERVICE DATA ADAPTATION PROTOCOL)
+  Diverse traffic types offered are: 
+  Voice, Broadband, mMTC, URLLC.
+  All of the above need different specification that 
+  then they to provide there sevice correctly...
+  5G follows the principle of QoS (Quality of Service) 
+  flows.
+  When tranfer of information takes place through PDU 
+  session, it contains a radio bearer and a N3 Tunnel.
+  Every PDU session has a spectfied Qos Flow, so it is 
+  designed according to the the need of data.
+
+   5QI= 5G Qos Identifier.
+ 
+  *Qos Flow Types
+  1. GBR (Garaunteed bit rate): In this case the voice 
+    is not interupted in the conversation.
+      I. Garaunteed flow bit rate (GFBR)
+      II. Maximum flow bit rate (MFBR)
+      III. Max packet loss rate (MPLR)
+  3. Non-GBR flows: Does not garauntee a certain bit 
+    rate.
+       I.RQI (Reflective Qos): It decided that the 
+       device should use the same QFI in the uplink 
+       and downlink.
+       II. Session-Agreegate maximum bit rate (AMBR)
+       III. UE-AMBR
+  5. Delay Critical: Used for critally controlled 
+   situations, used for remote control devices etc.
+
+*Uplink Qos flows:
+ 1. Reflective Mapping: When the Qos flows uses the 
+ same radio bearer in both uplink and downlink.
+ 2. Explicit Mapping: When both radio bearer and different in uplink and downlink.
+Muliplexing: When the same channel has different PDU session and Qos flows.
+
+      
  # Module 7
   
   * What are private networks: These networks are designed for a 
