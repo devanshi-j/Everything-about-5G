@@ -497,8 +497,54 @@ Ans. 1. Cost friendly
  2. Explicit Mapping: When both radio bearer and different in uplink and downlink.
 Muliplexing: When the same channel has different PDU session and Qos flows.
 
-      
- # Module 7
+# Everything about PDCP (PACKET DATA CONVERGENCE PROTOCOL) Layer:
+4 main functions:
+1. HEADER cOMPRESSION
+    Reduces the length of header by compressing it before transmission and decompresses it before wireless recieving of data.
+    It is based on the ROHC (Robust Header Compression)
+2. CIPHERING AND INTERGRITY PROTECTION
+     Ciphiring is used to prevent eavsdropping , it is done by using an algoritmn NEA. Intergrity protection is done to know the correct source of data origin, done by 
+     using an algorithm NIA.
+3. ROUTING AND DUPLICATION OF SPLIT BEARESRS
+     When the cre network needs to send data to different towers, it uses split bearer which is a type of PDCP. and Duplication can be used to send the exact same data in 
+     both the towers.  So it helps in achieving data rates and reliability.
+4. IN-SEQUENCE DELIVERY
+     It labels the packets so that the delivery of packets is done accordingly.
+
+
+# Everything about RLC (Radio link control)
+ 2 main functions:
+ 1.Segmentation:
+    
+ 2. ARQ- Retransmissions
+
+ RLC MODES:
+ 1. Transparent modes: NO transmission, No segmentation/reassembly taking place. The channels are designed in such a way.
+ 2. Unacknowledged mode: SEgmentation, but no retransmission.
+ 3. Acknowleged mode: Segmentation and retransmission are all supported in this mode.
+
+ # Everything about MAC (Medium Access Control) Layer
+  Functions of MAC
+  1. Logical-channel multiplexing
+  2. hybrid-ARQ retransmissions (follows the stop and wait method: the trinsmitter transmits one block of data and then waits for feedback,
+     after the feedback is recieved then another block is sent)
+  3. Scheduling
+  4. Multiplxing/demultiplexing for Carrier Applications
+
+     *When data is transferred from physical layer to mac layer it is done trough transport channel but when it communicates with RLC layes it is done through logical 
+     channels.
+*Different types of logical channel
+Broadcast Control Channel (BCCH), Paging Control Channel (PCCH), Common Control Channel (CCCH), Dedicated Control Channel (DCCH), Dedicated Traffic Channel (DTCH)
+
+*Different types of transport channel (Transport channels, converts information into blocks before transferring it over)
+Broadcast Channel (BCH), Downlink Shared Channel (DL-SCH), Paging Channel (PCH), Uplink Shared Channel (UL-SCH), and Random Access Channel (RACH).
+
+  *MAC layer can also add CE (control Elements) to the transport blocks.
+  Some of MAC CE
+  1. Scheduling
+  2. Random Access
+  3. Timing Advance etc.
+  # Module 7
   
   * What are private networks: These networks are designed for a 
     particular enterprise, so that they can perform their operations.
