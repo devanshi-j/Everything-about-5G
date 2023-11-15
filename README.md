@@ -507,7 +507,7 @@ Muliplexing: When the same channel has different PDU session and Qos flows.
      using an algorithm NIA.
 3. ROUTING AND DUPLICATION OF SPLIT BEARESRS
      When the cre network needs to send data to different towers, it uses split bearer which is a type of PDCP. and Duplication can be used to send the exact same data in 
-     both the towers.  So it helps in achieving data rates and reliability.
+     both the towers. So it helps in achieving data rates and reliability.
 4. IN-SEQUENCE DELIVERY
      It labels the packets so that the delivery of packets is done accordingly.
 
@@ -544,6 +544,35 @@ Broadcast Channel (BCH), Downlink Shared Channel (DL-SCH), Paging Channel (PCH),
   1. Scheduling
   2. Random Access
   3. Timing Advance etc.
+
+     # Scheduler
+     When one tower shares it's channels among different devices, scheduler helps in determining which device should use what amount of frequency and at what time.
+     *It is a part on MAC layer, but contacts with every layer.
+
+ # Physical layer
+ It transmits the transport bolck over the wirelss channels efficiently.
+
+ *Physical layer processing
+ 1. CRC (Cyclic redendency check): It detects any errors at the transport block level.
+ 2. LDPC (Low density parity check) graph selection: It uses base graphs to correct the error made in transport block.
+ 3. Rate matching: It assigns exact no. of bits that can be traded by a code block in a given time frame.
+ 4. Scrambling:
+ 5. Modulation: The transport block is transformed from 0's and 1's to a corresponding map modulation.
+ 6. Layer Mapping: It can map the data recieved from modulation into one or more layers.
+ 7. Antena mapping: It maps different layers into corresponding visual ports, with the help of precoding.
+ 8. Resource mapping: After alloting the antena, the needed resources are alloted.
+
+    *RRC & NAS: Completely related to control plane stack
+
+    NAS (NON-ACCESS STRATUM): aunthentication,security, assigning IP address. It operates between NAS in the gNodeB and NAS in the UE.
+    RRC (RADIO RESOURCE CONTROL): Connection management, mobility functions etc. It operates between RRC in the gNodeB and RRC in the UE.
+       *RRC states:
+        1. IDLE: the mode which comes immediately after power on.
+        2. COnnected: Used for data transfer.
+        3. Inactive: Where all the connection related parametres are stored, and then the device can go back
+           to power saving mode to come back to connected mode.
+
+    
   # Module 7
   
   * What are private networks: These networks are designed for a 
