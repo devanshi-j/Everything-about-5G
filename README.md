@@ -572,7 +572,63 @@ Broadcast Channel (BCH), Downlink Shared Channel (DL-SCH), Paging Channel (PCH),
         3. Inactive: Where all the connection related parametres are stored, and then the device can go back
            to power saving mode to come back to connected mode.
 
-    
+*INITIAL ACCESS: 
+1. Cell Search: Procedure which helps UE syncronise with the frequency and detect cell ID. In this UE looks for 5G cell (the overall area in which SSB is available.
+   SSB (Sync signal block)
+   1. primary syncronization signal
+   2. secondary syncronization signal
+   3. PBCH (physical broadcast channel
+
+
+*Steps after UE enters an environment:
+1.Scan for PSS (primary syncronization signal): Used for slot syncronization. It is decoded with the help of centre frequency. It has to scan many different bands to locate PSS. Can take 0,1,2 as possible values.
+2.Scan for SSS (secondary syncronization signal): Used for frame syncronization. It can have 336 possible values, since Pss is alredy located it only has to look though one band to find SSH.
+3.Decode PBCH for MIB (master information block): 
+MIB provides UE with parameters to aquire SIB1 (System information block1): like: system bandwidth, is the cell barred or not, SCS (subcarrier spacing).
+4.Other SIB's: they can be transferred perodically or transferred on demand.
+
+*RANDOM ACCESS
+Triggers: when device wants to switch from RRC (radio resource control)idle to rrc conneted
+          2. When sync lost
+
+Forms:
+1. Contention based ranom access:
+     Process:
+      1. The device transmits a preamble to gNodeB
+      2. Then network resopnds to that
+      3. Then it check if there is a collision and corrects it
+      4. then device transfers to connected state
+
+2. Contention free random access:
+      Process:
+     1. Preanmble assignment: A unique preamble is picked by gNodeB and then assigned to UE.
+     2. UE makes an random access response, so in this case their is a unique response
+     3. And since everything is assigned properly then there is no p;ace for collision to take place.
+
+* identifiers in 5G system
+  If we uniquely need to idetify a device they are used. Also subscription ID defines if the device allows 5G or not.
+    * Different Identifiers
+    * Device Identifier
+        1. PEI (Permanent Equipment Identifier)
+    * Subscription Identifier
+        1. SUPI (Subscription permanent Identity), it also use NAI (network eccess idetifier), it is stored in the sim card.
+        2. SUCI (Subscription Conceled Identity): This is implemented to avoid IMSI catching, which is when another network comes between UE and cell. So, SUPI is never 
+        transferred without concelling it.
+        3. Globally Unique Temporary Identifier: Temporary identity is assigned so, that if ID is hacked it will not remain definite.
+     
+    * Service Based Architecture:
+      1.Monolithic: A single system
+      2. Microsevices: Services devided into different slots, so it is very flexible, if one sevice is over loaded than it can be expanded as an indivisual instance.
+
+  There are refernece points and service based architecture and comparitively service based architecture is very flexible.
+
+*Network function: Can offer many services and each services offers a different interfacre. it can request or response by acting as a consumer.
+*NRF (Network repository function): whenever a new netork function is added, it keeps track of that.
+
+*UNIFIED DATA MANAGEMENT & UNIFIED DATA REPOSITORY: In UDR various types of data is stored EG: Subscription data, Policy data, structured data, Application data.
+All this data is managed by UDM which acts as the frontend of User data.
+
+*POLICY CONTROL FUNCTION:
   # Module 7
   
   * What are private networks: These networks are designed for a 
