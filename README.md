@@ -628,7 +628,45 @@ Forms:
 *UNIFIED DATA MANAGEMENT & UNIFIED DATA REPOSITORY: In UDR various types of data is stored EG: Subscription data, Policy data, structured data, Application data.
 All this data is managed by UDM which acts as the frontend of User data.
 
-*POLICY CONTROL FUNCTION:
+*POLICY CONTROL FUNCTION: Rules to manage users
+   2 kinds
+     1. session related: Policies directly related to the PDU session. Eg: traffic allowed and forbidden in PDU session etc.
+     2. Non-session related: Policies realted to users. EG: If a user is not allowed to access network in certain geographical arear then is is not session related.
+
+
+# 5G call flows
+1. Regestration procedure:
+   Q) What is registration Procedure?
+   When 5G device is turend on it needs to register itself. Different registrations:
+    1. Initial reg.
+    2. Periodic reg.: To check if the device is not run out of battery.
+    3. Moblity reg.: When the device has to register itself if moving to a new location.
+    4. Emergency reg.: When device needs to access emergency services
+  
+   *Registration Process
+   1. Registration request is made to AMF in core network
+   2. Context Transfer: transfer of UE context to AMF.
+   3. Authentication/security
+   4. Context Transfer Complete will be responded by AMF
+   5. Then device will ask for permission to register and ask for subscription details, this will be taken place by new AMF and the old AMF will retire.
+   6. THen it transfers the policy details.
+   7. If the PDU session alredy exists, then SMF session will order to continew it.
+   8. Registration complete.
+  
+   *Deregistration Procedure
+   1. Request sent
+   2. smf will accept request to cancel PDU session
+   3. Smf will release PDU session
+   4. Policy control will be released
+   5. Deregistration Accepted.
+  
+   *Establisment of PDU session: It is initiated by the UE
+   1. Request sent to AMF: It explains the need of this PDU session
+   2. It will send context request to SMF to gather the user subscription data.
+   3. Authentication
+   4. Then SMF creates a policy session
+   5. SMF sends accept message to device
+   6. Establishment accepted, now the first set of data can be sent.
   # Module 7
   
   * What are private networks: These networks are designed for a 
